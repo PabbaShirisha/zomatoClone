@@ -1,0 +1,213 @@
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+}
+
+.location-input {
+  border-radius: 50px;
+  padding-left: 35px;
+  height: 38px;
+  font-size: 0.9rem;
+  border: 1px solid #ddd;
+  transition: all 0.3s;
+}
+
+.location-input:focus {
+  border-color: #ff4c4c;
+  box-shadow: 0 0 5px rgba(255, 76, 76, 0.3);
+}
+
+.search-input {
+  border-radius: 50px;
+  height: 38px;
+  font-size: 0.9rem;
+  padding-left: 20px;
+  border: 1px solid #ddd;
+  transition: all 0.3s;
+}
+
+.search-input:focus {
+  border-color: #ff4c4c;
+  box-shadow: 0 0 5px rgba(255, 76, 76, 0.3);
+}
+
+/* Buttons */
+.btn-outline-dark {
+  border-radius: 50px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.btn-outline-dark:hover {
+  background-color: #ff4c4c;
+  border-color: #ff4c4c;
+  color: #fff;
+}
+
+.btn-danger {
+  border-radius: 50px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.btn-danger:hover {
+  background-color: #e04343;
+}
+
+@media (max-width: 992px) {
+  .location-input {
+    display: none;
+  }
+}
+.top-brands-section {
+     padding: 2rem 0;
+ }
+
+ .top-brands-scroll {
+     display: flex;
+     flex-wrap: nowrap;
+     overflow-x: auto;
+     gap: 1rem;
+     scroll-behavior: smooth;
+     padding-bottom: 0.5rem;
+ }
+
+ .top-brands-scroll::-webkit-scrollbar {
+     height: 6px;
+ }
+
+ .top-brands-scroll::-webkit-scrollbar-track {
+     background: transparent;
+ }
+
+ .top-brands-scroll::-webkit-scrollbar-thumb {
+     background: rgba(0, 0, 0, 0.15);
+     border-radius: 3px;
+ }
+
+ .brand-card {
+     flex: 0 0 auto;
+     width: 120px;
+     background-color: #ffffff;
+     border-radius: 0.75rem;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+     text-align: center;
+     padding: 0.75rem 0.5rem;
+     transition: transform 0.2s ease, box-shadow 0.2s ease;
+ }
+
+ .brand-card:hover {
+     transform: translateY(-3px) scale(1.03);
+     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+ }
+
+ .brand-logo {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     object-fit: cover;
+     margin: 0 auto 0.5rem;
+     display: block;
+ }
+
+ .brand-name {
+     font-size: 0.95rem;
+     font-weight: 600;
+     margin-bottom: 0.15rem;
+ }
+
+ .brand-time {
+     font-size: 0.8rem;
+     color: #6c757d;
+ }
+
+ @media (max-width: 576px) {
+     .brand-card {
+         width: 100px;
+     }
+
+     .brand-logo {
+         width: 80px;
+         height: 80px;
+     }
+ }
+
+ .banner {
+     position: relative;
+     background-image: url('https://as2.ftcdn.net/jpg/04/57/27/57/1000_F_457275775_zKthn4tQlf9e9EgRSEDCLeXmlp3ayDyi.jpg');
+     background-size: cover;
+     background-position: center;
+     border-radius: 10px;
+     height: 300px;
+     color: white;
+     display: flex;
+     align-items: center;
+     padding-left: 2rem;
+ }
+
+ .banner-text {
+     max-width: 400px;
+ }
+
+ .banner-text h1 {
+     font-size: 2.5rem;
+     font-weight: bold;
+ }
+
+ .banner-text p {
+     font-size: 1rem;
+     margin-bottom: 1rem;
+ }
+
+ .banner-btn {
+     background-color: #ff4c4c;
+     border: none;
+ }
+
+ .restaurant-card img {
+     height: 200px;
+     object-fit: cover;
+     border-top-left-radius: 0.5rem;
+     border-top-right-radius: 0.5rem;
+     transition: transform 0.3s ease;
+ }
+
+ .restaurant-card {
+     border-radius: 0.5rem;
+     overflow: hidden;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+     margin-bottom: 20px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .restaurant-card .card-body {
+     padding: 10px;
+ }
+
+ .badge-offer {
+     position: absolute;
+     top: 10px;
+     left: 10px;
+     background-color: #ff4c4c;
+     color: #fff;
+     padding: 2px 8px;
+     border-radius: 4px;
+     font-size: 0.8rem;
+ }
+
+ .restaurant-card:hover {
+     transform: translateY(-5px) scale(1.02);
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+ }
+
+ .restaurant-card:hover img {
+     transform: scale(1.1);
+ }
+
+ .restaurant-card:hover .badge-offer {
+     background-color: #ff1a1a;
+ }
+ .footer-icons i {
+    color: #fff !important;
+    font-size: 1.5rem;
+}
